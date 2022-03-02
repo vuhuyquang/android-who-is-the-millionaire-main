@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/backGround"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:src="@drawable/logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Luật chơi"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:text="
+Người chơi phải trả lời 15 câu hỏi với cấp độ từ dễ đến khó, thời gian suy nghĩ không hạn chế. Mỗi câu hỏi có một mức tiền thưởng, tăng dần theo thứ tự.
+Có ba mốc quan trọng là câu số 5, câu số 10 và câu số 15 (mốc 'TRIỆU PHÚ'). Khi vượt qua câu số 5 người chơi sẽ có thêm 1 quyền trợ giúp gọi điện thoại (do chương trình tự sắp xếp).
+"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Các quyền trợ giúp"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:paddingLeft="8.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.1 Trợ giúp 50:50"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <ImageView
+                    android:textColor="#fff"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/trogiup5050"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:text="Khi sử dụng sự trợ giúp này máy tính sẽ loại bỏ đi 2 phương án sai trong 4 phương án."
+                android:textStyle="italic" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:paddingLeft="8.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.2 Trợ giúp gọi điện thoại."
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/call"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:text="Khi sử dụng sự trợ giúp này máy tính sẽ tự động tính toán để đưa ra câu trả lời ( xác xuất trả lời đúng là lớn hơn 40 phân trăm ). Sau khi xong chương trình sẽ hiện lên 1 popup để đưa ra đáp án trợ giúp cho người chơi. Để thoát khỏi popup người chơi nhấn ra ngoài vùng tối để thoát."
+                android:textStyle="italic" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:paddingLeft="8.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.3 Trợ giúp từ khán giả."
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:tint="#fff"
+                    android:src="@drawable/trogiupkhangia"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:text="Khi sử dụng sự trợ giúp này máy tính sẽ random kết quả của 200 khán giả được thiết lập sẵn để đưa ra lựa chọn của mình, sau khi xong người chơi sẽ nhận đc 1 popup để biết phần trăm các đáp án của các khán giả trả lời, để thoát khỏi popup người chơi sẽ nhấn ra ngoài vùng tối để thoát."
+                android:textStyle="italic" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:paddingLeft="8.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <TextView
+                    android:textColor="#fff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.4 Trợ giúp đổi câu hỏi."
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:tint="#fff"
+                    android:src="@drawable/trogiudoicauhoi"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="15dp"
+                android:text="Khi sử dụng sự trợ giúp này máy tính sẽ đổi lại 1 câu hỏi khác cùng cấp độ với câu hỏi hiện tại."
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Đóng góp câu hỏi về cho chương trình."
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:text="Người chơi sẽ phải điền đầy đủ vào form được thiết kế sẵn để gửi về cho chương trình bảo gồm:
+\n\t- Nội dung câu hỏi người chơi muốn đóng góp.\n\t- Câu trả lời đúng cho câu hỏi.\n\t - 3 câu trả lời sai đồng nghĩa với câu trả lời đúng.\n
+Sau khi điền toàn bộ thông tin vào form đóng góp câu hỏi, người dùng sẽ nhấn vào button đóng góp để lựa chọn các ứng dụng để gửi."
+            android:textStyle="italic" />
+        <TextView
+            android:textColor="#FF0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:text="Chú ý: Hiện chương trình chỉ hỗ trợ nhận câu hỏi được đóng góp qua Email hoặc Gmail, chưa hỗ trợ nhận qua các nền tảng khác. "
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>
